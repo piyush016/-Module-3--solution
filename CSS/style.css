@@ -1,0 +1,96 @@
+body{
+    background-color: aliceblue;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+#home{
+    margin: 30px 0px 20px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+}
+
+#navbar{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+}
+
+hr.light{
+    width: 100%;
+    background-color:white;
+}
+
+article.main-content{
+    border: 2px solid grey;
+    margin-bottom: 30px;
+
+}
+
+.heading{
+    font: 0.9rem;
+    margin-top: 10px;
+
+}
+
+p.content{
+    padding: 5px 10px 20px 10px;
+    text-align: center;
+}
+
+.bct{
+    float: left;
+    margin-top: 10px;
+    color: #5f0e0e;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+#content1{
+    background-color: #659DBD;
+    color: #EDF5E1 ;
+}
+
+#content2{
+    background-color: #ffeb99;
+    color: #501b1da6;
+    
+}
+
+#content3{
+    background-color: #5CDB95;
+    color: #950740 ;
+}
+
+
+/* media-queries */
+@media (min-width:1200px)
+{
+    .navbar-toggler{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1199px) and (min-width:992px)
+{
+    .navbar-toggler{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 991px) and (min-width:769px)
+{
+    .navbar-toggler{
+        display: none;
+    }
+    
+}
